@@ -7,6 +7,8 @@
 #include "Vector.h"
 #include <cassert>
 #include <complex>
+#include "PsimagLite.h"
+#include "ProgressIndicator.h"
 
 typedef PsimagLite::Vector<IntegerType>::Type VectorIntegerType;
 typedef PsimagLite::Vector<int>::Type VectorIntType;
